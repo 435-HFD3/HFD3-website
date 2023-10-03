@@ -4,7 +4,7 @@ version: "3.8"
 services:
   # A user-defined name for this container
   flask-app:
-    container_name: personal-website
+    container_name: 435-website
     # Indicates that `Dockerfile-dev` should be used for local instantiations
     build:
         context: .
