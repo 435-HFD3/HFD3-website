@@ -9,13 +9,224 @@
 <body>
 
   <header>
-    <h1>Welcome to awesome website wow</h1>
+    <img src="images/msu-background.jpg" alt="MSU Skyline" loading="lazy">
   </header>
+
   <main>
-    <h2>So cool</h2>
+    <div class="title">
+      <h1>CSE435: Hands Free Driving - Group 3</h1>
+      <h3><a href="https://www.cse.msu.edu/~cse435/" target="_blank">Course Page</a></h3>
+    </div>
+
+
+    <hr>
+    <h2>Project Overview</h2>
+    <div class="project-background">
+      <img src="images/gmc-hfds.avif" alt="MSU Skyline" loading="lazy">
+      <p>The HFDS system allows a vehicle to automatically steer, accelerate and brake in certain highway
+        conditions. Once activated, the driver can remove their hands from the wheel and is continuously
+        monitored to ensure active engagement with the road. Warnings are issued if 1) the system needs the
+        driver to reclaim control, 2) The driver is deemed distracted. <a href="https://www.cse.msu.edu/~cse435/Projects/F2023/ProjectDescriptions/2023-HFDS-GM-Davenport.pdf" target="_blank">More information here.</a>
+        </p>
+    </div>
+
+    <hr>
+    <h2>About Us</h2>
+
+    <div class="three-pics">
+      <div class="pic-with-desc">
+        <img src="images/prof.jpg" alt="Professor" loading="lazy">
+        <h3>Betty Chang</h3>
+        <div class="pic-text">
+          <h4><strong>Professor</strong></h4>
+          
+          <a href="https://www.cse.msu.edu/~chengb/" target="_blank">Website</a>
+        </div>
+      </div>
+
+      <div class="pic-with-desc">
+        <img src="images/prof.jpg" alt="Professor" loading="lazy">
+        <h3>Grant Carr</h3>
+        <div class="pic-text">
+          <h4><strong>Project Manager</strong></h4>
+          
+          <a href="https://www.cse.msu.edu/~chengb/" target="_blank">Website</a>
+        </div>
+      </div>
+
+      <div class="pic-with-desc">
+        <img src="images/prof.jpg" alt="Professor" loading="lazy">
+        <h3>Brandon Dutton</h3>
+        <div class="pic-text">
+          <h4><strong>Facilitator</strong></h4>
+          
+          <a href="https://www.cse.msu.edu/~chengb/" target="_blank">Website</a>
+        </div>
+      </div>
+      
+    </div>
+
+
+    <div class="three-pics">
+      <div class="pic-with-desc">
+        <img src="images/andrew-pic.jpg" alt="Professor" loading="lazy">
+        <h3>Andrew Dagostino</h3>
+        <div class="pic-text">
+          <h4><strong>Web Master</strong></h4>
+          
+          <a href="http://andrewdag.pythonanywhere.com/" target="_blank">Website</a>
+        </div>
+      </div>
+
+      <div class="pic-with-desc">
+        <img src="images/prof.jpg" alt="Professor" loading="lazy">
+        <h3>Will Willson</h3>
+        <div class="pic-text">
+          <h4><strong>Customer Liason</strong></h4>
+          
+          <a href="https://www.cse.msu.edu/~chengb/" target="_blank">Website</a>
+        </div>
+      </div>
+
+      <div class="pic-with-desc">
+        <img src="images/prof.jpg" alt="Professor" loading="lazy">
+        <h3>Chase Hawley</h3>
+        <div class="pic-text">
+          <h4><strong>Security Manager</strong></h4>
+          
+          <a href="https://www.cse.msu.edu/~chengb/" target="_blank">Website</a>
+        </div>
+      </div>
+      
+    </div>
+
+
   </main>
 
 
-  <style>
-    
-  </style>
+<style>
+body
+{
+  margin: 0;
+}
+
+a
+{
+  text-decoration: none;
+  color: purple;
+}
+
+hr
+{
+  height: 5px;
+  border: none;
+  background-color: #817F82;
+
+  width: 90%;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+header img
+{
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 25% 25%; 
+}
+
+h2
+{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  margin: 0;
+  padding: 10px;
+  color: #18453B;
+}
+
+h3
+{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #18453B;
+  font-size: 20px;
+  margin: 0;
+}
+
+h4
+{
+  margin: 10px;
+}
+
+.title
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #18453B;
+}
+
+main
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.project-background
+{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  overflow: auto;
+}
+
+.project-background img
+{
+  width: 250%;
+  height: 250%;
+  
+  padding: 20px;
+}
+
+.project-background p
+{
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.three-pics
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  width: 100%;
+}
+
+.pic-with-desc
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px;
+
+  max-width: 300px;
+}
+.pic-with-desc img
+{
+  max-width: 200px;
+}
+.pic-text
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+</style>
